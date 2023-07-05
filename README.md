@@ -13,6 +13,12 @@ cd <project_name>
 python -m venv env
 ```
 
+> ### Adding pygame to the project
+```
+env\Scripts\Activate
+pip install pygame
+```
+
 > ### Adding Pyframe to the project
 
 > Using git
