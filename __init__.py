@@ -133,6 +133,8 @@ class GuiWindow:
             pg.display.set_mode((width, height), pg.NOFRAME)
             self.title_bar()
             self.screen_update = False
+            return True
+        return False
 
     def drag_window(self, mouse_pos, click):
         mouse_x, mouse_y = mouse_pos
